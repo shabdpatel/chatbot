@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+.pixel-font {
+    font-family: 'Press Start 2P', cursive;
+    color: white;
+    text-shadow: 2px 2px 0 #000, 4px 4px 0 #555;
+}
+
+.pixel-button {
+    font-family: 'Press Start 2P', cursive;
+    font-size: 16px;
+    color: black;
+    background-color: #f0f0f0;
+    border: 2px solid black;
+    padding: 10px 20px;
+    cursor: pointer;
+    position: relative;
+    transition: transform 0.2s ease-in-out;
+    box-shadow: 4px 4px 0 #000;
+}
+
+.pixel-button:hover {
+    transform: translate(-4px, -4px);
+}
+
+.pixel-button:before {
+    content: '';
+    position: absolute;
+    top: -2px;
+    left: -2px;
+    right: -2px;
+    bottom: -2px;
+    border: 2px solid white;
+    z-index: -1;
+}
+
+img {
+    max-width: 100px;
+    /* Adjust the size as needed */
+}
+
+.small-image {
+    max-width: 30px;
+    /* Adjust the size as needed */
+}
+
+.rocket {
+    max-width: 200px;
+    /* Adjust the size as needed */
+}
+
+/* Remove cloud and stone styles */

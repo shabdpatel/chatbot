@@ -1,0 +1,762 @@
+[
+    {
+        "question": "I enjoy brainstorming new ideas and exploring unconventional solutions.",
+        "options": [
+            "Strongly Agree",
+            "Agree",
+            "Neutral",
+            "Disagree",
+            "Strongly Disagree"
+        ],
+        "weights": {
+            "IT": [
+                3,
+                2,
+                1,
+                0,
+                -1
+            ],
+            "Research": [
+                1,
+                1,
+                1,
+                0,
+                -1
+            ],
+            "HigherStudies": [
+                2,
+                2,
+                1,
+                0,
+                -1
+            ],
+            "Others": [
+                2,
+                2,
+                1,
+                0,
+                -1
+            ]
+        }
+    },
+    {
+        "question": "I am comfortable taking risks and trying new approaches.",
+        "options": [
+            "Strongly Agree",
+            "Agree",
+            "Neutral",
+            "Disagree",
+            "Strongly Disagree"
+        ],
+        "weights": {
+            "IT": [
+                1,
+                1,
+                1,
+                0,
+                -1
+            ],
+            "Research": [
+                3,
+                2,
+                1,
+                0,
+                -1
+            ],
+            "HigherStudies": [
+                2,
+                2,
+                1,
+                0,
+                -1
+            ],
+            "Others": [
+                1,
+                1,
+                1,
+                0,
+                -1
+            ]
+        }
+    },
+    {
+        "question": "I find inspiration in artistic and creative endeavors.",
+        "options": [
+            "Strongly Agree",
+            "Agree",
+            "Neutral",
+            "Disagree",
+            "Strongly Disagree"
+        ],
+        "weights": {
+            "IT": [
+                2,
+                2,
+                1,
+                0,
+                -1
+            ],
+            "Research": [
+                1,
+                1,
+                1,
+                0,
+                -1
+            ],
+            "HigherStudies": [
+                1,
+                1,
+                1,
+                0,
+                -1
+            ],
+            "Others": [
+                3,
+                2,
+                1,
+                0,
+                -1
+            ]
+        }
+    },
+    {
+        "question": "I prefer following established procedures and guidelines.",
+        "options": [
+            "Strongly Agree",
+            "Agree",
+            "Neutral",
+            "Disagree",
+            "Strongly Disagree"
+        ],
+        "weights": {
+            "IT": [
+                3,
+                2,
+                1,
+                0,
+                -1
+            ],
+            "Research": [
+                3,
+                2,
+                1,
+                0,
+                -1
+            ],
+            "HigherStudies": [
+                2,
+                2,
+                1,
+                0,
+                -1
+            ],
+            "Others": [
+                2,
+                2,
+                1,
+                0,
+                -1
+            ]
+        }
+    },
+    {
+        "question": "I enjoy working collaboratively with others to achieve common goals.",
+        "options": [
+            "Strongly Agree",
+            "Agree",
+            "Neutral",
+            "Disagree",
+            "Strongly Disagree"
+        ],
+        "weights": {
+            "IT": [
+                2,
+                2,
+                1,
+                0,
+                -1
+            ],
+            "Research": [
+                1,
+                1,
+                1,
+                0,
+                -1
+            ],
+            "HigherStudies": [
+                2,
+                2,
+                1,
+                0,
+                -1
+            ],
+            "Others": [
+                3,
+                2,
+                1,
+                0,
+                -1
+            ]
+        }
+    },
+    {
+        "question": "I prefer working independently and taking ownership of projects.",
+        "options": [
+            "Strongly Agree",
+            "Agree",
+            "Neutral",
+            "Disagree",
+            "Strongly Disagree"
+        ],
+        "weights": {
+            "IT": [
+                3,
+                2,
+                1,
+                0,
+                -1
+            ],
+            "Research": [
+                2,
+                2,
+                1,
+                0,
+                -1
+            ],
+            "HigherStudies": [
+                2,
+                2,
+                1,
+                0,
+                -1
+            ],
+            "Others": [
+                3,
+                2,
+                1,
+                0,
+                -1
+            ]
+        }
+    },
+    {
+        "question": "I am skilled at building relationships and fostering teamwork.",
+        "options": [
+            "Strongly Agree",
+            "Agree",
+            "Neutral",
+            "Disagree",
+            "Strongly Disagree"
+        ],
+        "weights": {
+            "IT": [
+                3,
+                2,
+                1,
+                0,
+                -1
+            ],
+            "Research": [
+                1,
+                1,
+                1,
+                0,
+                -1
+            ],
+            "HigherStudies": [
+                1,
+                1,
+                1,
+                0,
+                -1
+            ],
+            "Others": [
+                1,
+                1,
+                1,
+                0,
+                -1
+            ]
+        }
+    },
+    {
+        "question": "I find it challenging to share ideas and collaborate with others.",
+        "options": [
+            "Strongly Agree",
+            "Agree",
+            "Neutral",
+            "Disagree",
+            "Strongly Disagree"
+        ],
+        "weights": {
+            "IT": [
+                1,
+                1,
+                1,
+                0,
+                -1
+            ],
+            "Research": [
+                3,
+                2,
+                1,
+                0,
+                -1
+            ],
+            "HigherStudies": [
+                3,
+                2,
+                1,
+                0,
+                -1
+            ],
+            "Others": [
+                1,
+                1,
+                1,
+                0,
+                -1
+            ]
+        }
+    },
+    {
+        "question": "I am interested in applying engineering principles to solve real-world problems.",
+        "options": [
+            "Strongly Agree",
+            "Agree",
+            "Neutral",
+            "Disagree",
+            "Strongly Disagree"
+        ],
+        "weights": {
+            "IT": [
+                3,
+                2,
+                1,
+                0,
+                -1
+            ],
+            "Research": [
+                2,
+                2,
+                1,
+                0,
+                -1
+            ],
+            "HigherStudies": [
+                2,
+                2,
+                1,
+                0,
+                -1
+            ],
+            "Others": [
+                3,
+                2,
+                1,
+                0,
+                -1
+            ]
+        }
+    },
+    {
+        "question": "I prefer theoretical concepts to practical applications.",
+        "options": [
+            "Strongly Agree",
+            "Agree",
+            "Neutral",
+            "Disagree",
+            "Strongly Disagree"
+        ],
+        "weights": {
+            "IT": [
+                1,
+                1,
+                1,
+                0,
+                -1
+            ],
+            "Research": [
+                3,
+                2,
+                1,
+                0,
+                -1
+            ],
+            "HigherStudies": [
+                3,
+                2,
+                1,
+                0,
+                -1
+            ],
+            "Others": [
+                1,
+                1,
+                1,
+                0,
+                -1
+            ]
+        }
+    },
+    {
+        "question": "I enjoy working on projects that have a tangible impact on society.",
+        "options": [
+            "Strongly Agree",
+            "Agree",
+            "Neutral",
+            "Disagree",
+            "Strongly Disagree"
+        ],
+        "weights": {
+            "IT": [
+                3,
+                2,
+                1,
+                0,
+                -1
+            ],
+            "Research": [
+                2,
+                2,
+                1,
+                0,
+                -1
+            ],
+            "HigherStudies": [
+                2,
+                2,
+                1,
+                0,
+                -1
+            ],
+            "Others": [
+                1,
+                1,
+                1,
+                0,
+                -1
+            ]
+        }
+    },
+    {
+        "question": "I am more focused on the technical aspects of engineering rather than its societal implications.",
+        "options": [
+            "Strongly Agree",
+            "Agree",
+            "Neutral",
+            "Disagree",
+            "Strongly Disagree"
+        ],
+        "weights": {
+            "IT": [
+                2,
+                2,
+                1,
+                0,
+                -1
+            ],
+            "Research": [
+                3,
+                2,
+                1,
+                0,
+                -1
+            ],
+            "HigherStudies": [
+                2,
+                2,
+                1,
+                0,
+                -1
+            ],
+            "Others": [
+                3,
+                2,
+                1,
+                0,
+                -1
+            ]
+        }
+    },
+    {
+        "question": "I prefer learning through theoretical concepts and abstract thinking.",
+        "options": [
+            "Strongly Agree",
+            "Agree",
+            "Neutral",
+            "Disagree",
+            "Strongly Disagree"
+        ],
+        "weights": {
+            "IT": [
+                1,
+                1,
+                1,
+                0,
+                -1
+            ],
+            "Research": [
+                3,
+                2,
+                1,
+                0,
+                -1
+            ],
+            "HigherStudies": [
+                3,
+                2,
+                1,
+                0,
+                -1
+            ],
+            "Others": [
+                1,
+                1,
+                1,
+                0,
+                -1
+            ]
+        }
+    },
+    {
+        "question": "I enjoy learning by doing practical experiments and hands-on activities.",
+        "options": [
+            "Strongly Agree",
+            "Agree",
+            "Neutral",
+            "Disagree",
+            "Strongly Disagree"
+        ],
+        "weights": {
+            "IT": [
+                3,
+                2,
+                1,
+                0,
+                -1
+            ],
+            "Research": [
+                2,
+                2,
+                1,
+                0,
+                -1
+            ],
+            "HigherStudies": [
+                2,
+                2,
+                1,
+                0,
+                -1
+            ],
+            "Others": [
+                2,
+                2,
+                1,
+                0,
+                -1
+            ]
+        }
+    },
+    {
+        "question": "I am comfortable with ambiguity and exploring different approaches to problem-solving.",
+        "options": [
+            "Strongly Agree",
+            "Agree",
+            "Neutral",
+            "Disagree",
+            "Strongly Disagree"
+        ],
+        "weights": {
+            "IT": [
+                1,
+                1,
+                1,
+                0,
+                -1
+            ],
+            "Research": [
+                1,
+                1,
+                1,
+                0,
+                -1
+            ],
+            "HigherStudies": [
+                1,
+                1,
+                1,
+                0,
+                -1
+            ],
+            "Others": [
+                3,
+                2,
+                1,
+                0,
+                -1
+            ]
+        }
+    },
+    {
+        "question": "I am comfortable working with numbers, data, and complex calculations.",
+        "options": [
+            "Strongly Agree",
+            "Agree",
+            "Neutral",
+            "Disagree",
+            "Strongly Disagree"
+        ],
+        "weights": {
+            "IT": [
+                3,
+                2,
+                1,
+                0,
+                -1
+            ],
+            "Research": [
+                2,
+                2,
+                1,
+                0,
+                -1
+            ],
+            "HigherStudies": [
+                2,
+                2,
+                1,
+                0,
+                -1
+            ],
+            "Others": [
+                1,
+                1,
+                1,
+                0,
+                -1
+            ]
+        }
+    },
+    {
+        "question": "I am interested in exploring new theories and expanding the boundaries of knowledge.",
+        "options": [
+            "Strongly Agree",
+            "Agree",
+            "Neutral",
+            "Disagree",
+            "Strongly Disagree"
+        ],
+        "weights": {
+            "IT": [
+                2,
+                2,
+                1,
+                0,
+                -1
+            ],
+            "Research": [
+                3,
+                2,
+                1,
+                0,
+                -1
+            ],
+            "HigherStudies": [
+                3,
+                2,
+                1,
+                0,
+                -1
+            ],
+            "Others": [
+                1,
+                1,
+                1,
+                0,
+                -1
+            ]
+        }
+    },
+    {
+        "question": "I prefer structured and organized learning environments.",
+        "options": [
+            "Strongly Agree",
+            "Agree",
+            "Neutral",
+            "Disagree",
+            "Strongly Disagree"
+        ],
+        "weights": {
+            "IT": [
+                2,
+                2,
+                1,
+                0,
+                -1
+            ],
+            "Research": [
+                3,
+                2,
+                1,
+                0,
+                -1
+            ],
+            "HigherStudies": [
+                2,
+                2,
+                1,
+                0,
+                -1
+            ],
+            "Others": [
+                2,
+                2,
+                1,
+                0,
+                -1
+            ]
+        }
+    },
+    {
+        "question": "I enjoy unstructured and flexible learning environments.",
+        "options": [
+            "Strongly Agree",
+            "Agree",
+            "Neutral",
+            "Disagree",
+            "Strongly Disagree"
+        ],
+        "weights": {
+            "IT": [
+                1,
+                1,
+                1,
+                0,
+                -1
+            ],
+            "Research": [
+                1,
+                1,
+                1,
+                0,
+                -1
+            ],
+            "HigherStudies": [
+                1,
+                1,
+                1,
+                0,
+                -1
+            ],
+            "Others": [
+                3,
+                2,
+                1,
+                0,
+                -1
+            ]
+        }
+    }
+]
