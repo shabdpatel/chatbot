@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { PieChart, Pie, Cell, Tooltip } from 'recharts';
+import { Radar, RadarChart, PolarGrid, PolarAngleAxis, PolarRadiusAxis, Tooltip } from 'recharts';
 import { motion } from 'framer-motion';
 import questions from './Questions.json'; // Ensure this path is correct
 
@@ -28,13 +28,11 @@ const Chatbot = () => {
     };
 
     const data = [
-        { name: 'IT', value: results.IT },
-        { name: 'Research', value: results.Research },
-        { name: 'HigherStudies', value: results.HigherStudies },
-        { name: 'Others', value: results.Others },
+        { subject: 'IT', A: results.IT, fullMark: 100 },
+        { subject: 'Research', A: results.Research, fullMark: 100 },
+        { subject: 'HigherStudies', A: results.HigherStudies, fullMark: 100 },
+        { subject: 'Others', A: results.Others, fullMark: 100 },
     ];
-
-    const COLORS = ['#0088FE', '#00C49F', '#FFBB28', '#FF8042'];
 
     return (
         <div
@@ -121,30 +119,26 @@ const Chatbot = () => {
                     background: 'rgba(255, 255, 255, 0.9)',
                     padding: '20px',
                     textAlign: 'left',
-                    fontSize: '18px',
+                    fontSize: '12px',
                     borderRadius: '10px',
                     marginRight: '80px', // Add space from the right edge
                 }}>
                     <h2 className="text-xl font-bold mb-4">Career Path Recommendation</h2>
-                    <p className="mb-4">Based on your responses, we recommend the following career paths for you:</p>
+                    <p className="mb-4">Based on your responses, the recommended career paths for you:</p>
                     <div className="flex justify-center">
-                        <PieChart width={300} height={300}>
-                            <Pie
-                                data={data}
-                                cx={150}
-                                cy={150}
-                                labelLine={false}
-                                label={({ name, percent }) => `${name}: ${(percent * 100).toFixed(0)}%`}
-                                outerRadius={120}
+                        <RadarChart cx={200} cy={200} outerRadius={150} width={400} height={400} data={data}>
+                            <PolarGrid />
+                            <PolarAngleAxis dataKey="subject" />
+                            <PolarRadiusAxis />
+                            <Radar
+                                name="Career Path"
+                                dataKey="A"
+                                stroke="#8884d8"
                                 fill="#8884d8"
-                                dataKey="value"
-                            >
-                                {data.map((entry, index) => (
-                                    <Cell key={`cell-${index}`} fill={COLORS[index % COLORS.length]} />
-                                ))}
-                            </Pie>
+                                fillOpacity={0.6}
+                            />
                             <Tooltip />
-                        </PieChart>
+                        </RadarChart>
                     </div>
                     <p className="mt-4">Thank you for using our career path recommendation chatbot!</p>
                 </div>
