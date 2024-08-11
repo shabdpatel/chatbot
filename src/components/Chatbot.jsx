@@ -38,7 +38,7 @@ const Chatbot = () => {
         <div
             className="min-h-screen flex justify-center items-center relative"
             style={{
-                backgroundImage: 'url(/sp1.png)',
+                backgroundImage: 'url(/d.png)',
                 backgroundSize: 'cover',
                 backgroundPosition: 'center',
                 height: '100vh',
