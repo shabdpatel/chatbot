@@ -48,16 +48,18 @@ const Chatbot = () => {
                 fontFamily: "'Press Start 2P', cursive",
             }}
         >
-            {/* Rocket Animation - Hidden on Mobile */}
-            <div className="relative z-10 w-2/3 flex justify-center items-center rocket">
-                <motion.img
-                    src="/rocket.gif"
-                    alt="Rocket Animation"
-                    animate={{ y: [0, -50, 0] }}
-                    transition={{ duration: 2, repeat: Infinity, ease: "easeInOut" }}
-                    style={{ width: '80%', height: 'auto' }}
-                />
-            </div>
+            {/* Conditionally render Rocket Animation - Hidden on Mobile */}
+            {!completed && (
+                <div className="relative z-10 ml-56 w-2/3 flex justify-center items-center rocket">
+                    <motion.img
+                        src="/rocket.gif"
+                        alt="Rocket Animation"
+                        animate={{ y: [0, -50, 0] }}
+                        transition={{ duration: 2, repeat: Infinity, ease: "easeInOut" }}
+                        style={{ width: '100%', height: '100%' }}
+                    />
+                </div>
+            )}
 
             {!completed ? (
                 <div
@@ -113,15 +115,18 @@ const Chatbot = () => {
                     </div>
                 </div>
             ) : (
-                <div className="bg-white p-6 rounded-lg shadow-lg w-full max-w-md text-center result-container" style={{
-                    border: '4px solid black',
-                    background: 'rgba(255, 255, 255, 0.9)',
-                    padding: '20px',
-                    textAlign: 'left',
-                    fontSize: '12px',
-                    borderRadius: '10px',
-                    marginRight: '80px',
-                }}>
+                <div
+                    className="bg-white p-6 rounded-lg shadow-lg w-full max-w-md text-center result-container flex flex-col items-center justify-center"
+                    style={{
+                        border: '4px solid black',
+                        background: 'rgba(255, 255, 255, 0.9)',
+                        padding: '20px',
+                        textAlign: 'left',
+                        fontSize: '12px',
+                        borderRadius: '10px',
+                        margin: '0 auto',
+                    }}
+                >
                     <h2 className="text-xl font-bold mb-4">Career Path Recommendation</h2>
                     <p className="mb-4">Based on your responses, the recommended career paths for you:</p>
                     <div className="flex justify-center radar-chart">
