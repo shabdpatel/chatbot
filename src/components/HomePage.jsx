@@ -16,15 +16,16 @@ const HomePage = () => {
                 height: '100vh',
             }}
         >
-            <div className="p-8 mt-2 w-full max-w-lg text-center relative z-10">
+            <div className="p-8 w-full max-w-lg text-center relative z-10">
                 <motion.img
                     src="/rocket.gif"
                     alt="Logo"
                     className="mx-auto mb-2 rocket"
                     animate={{ y: [0, -20, 0] }}
                     transition={{ duration: 2, repeat: Infinity, ease: "easeInOut" }}
+                    style={{ maxWidth: '80%', height: 'auto' }} // Ensure the rocket image scales well on mobile
                 />
-                <h1 className="pixel-font text-5xl font-bold mb-5 mx-4">Career Chatbot</h1>
+                <h1 className="pixel-font text-4xl sm:text-5xl font-bold mb-5 mx-4">Career Chatbot</h1>
                 <Link to="/chatbot">
                     <button className="pixel-button">
                         Start

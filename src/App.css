@@ -40,3 +40,46 @@
 .read-the-docs {
   color: #888;
 } */
+@media (max-width: 768px) {
+  .rocket {
+    display: none;
+  }
+
+  .question-container {
+    margin: 0 auto;
+    width: 100%;
+    max-width: 100%;
+    padding: 10px;
+  }
+
+  .question-text {
+    font-size: 14px;
+    /* Adjust font size for mobile */
+  }
+
+  .question-counter {
+    right: auto;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  .question-buttons button {
+    font-size: 14px;
+    padding: 8px 16px;
+    /* Adjust button size */
+  }
+
+  .result-container {
+    width: 100%;
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 10px;
+  }
+
+  .radar-chart {
+    width: 100%;
+    max-width: 300px;
+    /* Adjust size for mobile */
+    height: auto;
+  }
+}
